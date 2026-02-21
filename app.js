@@ -2,9 +2,10 @@ const brandInput = document.getElementById("inp");
 const modelInput = document.getElementById("inp1");
 const searchBtn = document.getElementById("btn");
 
+
 const products = document.querySelectorAll("#Body div, #body1 div, #body2 div, #body3 div, #body4 div, #body5 div, #body6 div, #body7 div");
 
-const cartArea = document.querySelector(".fa-cart-arrow-down").parentElement;
+
 
 brandInput.addEventListener("input", function () {
 
@@ -39,7 +40,7 @@ function searchProduct() {
         }
     });
 
-    // Clear inputs
+
     brandInput.value = "";
     modelInput.value = "";
 }
